@@ -11,4 +11,4 @@ pip install gym
 ```
 pip isntall Box2d
 ```
-Moreover you need to isntall Microsoft Visual Studio C++ 14.0 (or higher). 
+Moreover you need to install Microsoft Visual Studio C++ 14.0 (or higher). 
