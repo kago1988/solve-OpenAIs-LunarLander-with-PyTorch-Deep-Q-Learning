@@ -1,8 +1,8 @@
 # solve-OpenAIs-LunarLander-with-PyTorch-Deep-Q-Learning
 
-This code is from the YouTuber "Coding with Phil". I found it very inspiring and it is a good template. 
+(Hobby) This code is from the YouTuber "Coding with Phil". I found it very inspiring and it is a good template. 
 
-(Hobby) Here is a solution on how to solve OpenAIs LunarLander with PyTorch Deep-Q-Learning
+Here is a solution on how to solve OpenAIs LunarLander with PyTorch Deep-Q-Learning
 
 Python 3.8 + should be fine. Then install: 
 ```
