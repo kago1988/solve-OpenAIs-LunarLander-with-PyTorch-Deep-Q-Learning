@@ -3,7 +3,7 @@ from simple_dqn_torch_2020 import Agent
 from utils import plotLearning
 import numpy as np
 
-if __name__ == '__main__':
+def main():
     lunar_string = 'LunarLander-v2'
     env = gym.make(lunar_string)
     agent = Agent(gamma=0.99, epsilon=1.0, batch_size=64, n_actions=4, eps_end=0.01,
@@ -34,3 +34,6 @@ if __name__ == '__main__':
     x = [i+1 for i in range(n_games)]
     filename = 'lunar_lander.png'
     plotLearning(x, scores, eps_history, filename)
+
+if __name__ == '__main__':
+    main()
